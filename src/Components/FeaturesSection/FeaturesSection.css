@@ -1,0 +1,46 @@
+.feature_section {
+  background: #002570;
+  flex-shrink: 0;
+  padding: 50px 80px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.top_title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.top_heading {
+  display: flex;
+  width: 421px;
+  height: 51px;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; /* 241.6% */
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+
+.feature_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1457px;
+  gap: 3rem;
+  row-gap: 4rem;
+}

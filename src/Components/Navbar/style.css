@@ -1,0 +1,137 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #fff9f6;
+}
+
+nav .nav-logo img {
+  max-width: 80%;
+}
+nav .nav-links {
+  margin-right: 10vw;
+}
+
+nav .nav-links a {
+  text-decoration: none;
+  margin-right: 1.6rem;
+  font-weight: 500;
+  color: var(--primar-color);
+}
+nav .nav-links a:last-child {
+  margin-right: 0;
+}
+nav .seperator {
+  display: flex;
+  align-items: center;
+}
+.nav-btn .login-btn {
+  padding: 0.8rem 1.8rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 30%;
+}
+.nav-btn .linkedin-btn {
+  margin-left: 2rem;
+}
+
+.nav-btn .linkedin-btn img {
+  width: 3rem;
+  align-self: center;
+}
+
+#menu-icon {
+  width: 29px;
+  color: var(--primar-color);
+  display: none;
+}
+
+/* ---- medai queries */
+@media screen and (max-width: 1100px) {
+  nav {
+    padding: 0.98rem 4.5%;
+  }
+  nav-btn .login-btn {
+    padding: 0.8rem 1.7rem;
+  }
+  nav .nav-logo img {
+    max-width: 80%;
+  }
+  nav .nav-links {
+    margin-right: 7vw;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  nav {
+    padding: 0.98rem 4%;
+  }
+  nav-btn .login-btn {
+    padding: 0.74rem 1.6rem;
+  }
+  nav .nav-logo img {
+    max-width: 76%;
+  }
+  nav .nav-links {
+    margin-right: 6.5vw;
+  }
+}
+
+/* ------- hamburger menyu-------------------- */
+@media screen and (max-width: 900px) {
+  nav {
+    position: relative;
+  }
+  nav .seperator {
+    right: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -100rem;
+    justify-content: center;
+    background: rgb(255, 243, 236);
+    transition: 0.4s ease-in-out all;
+  }
+  #active-menu {
+    top: 5rem;
+  }
+
+  nav .nav-links a {
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding: 2rem 0.1rem;
+    width: 100vw;
+  }
+  .nav-btn .linkedin-btn {
+    margin-left: 1rem;
+  }
+
+  .nav-btn {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    margin: 2rem auto;
+  }
+  #menu-icon {
+    display: block;
+    transition: 0.5s ease-in-out all;
+  }
+}
+@media screen and (max-width: 700px) {
+  #menu-icon {
+    font-size: 3rem;
+  }
+}
+/* --------------- end -------------------- */

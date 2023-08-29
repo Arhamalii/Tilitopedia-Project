@@ -1,0 +1,10 @@
+.blogSection {
+  display: flex;
+  max-width: 1435px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+  flex-wrap: wrap;
+  padding: 2rem 2rem;
+}

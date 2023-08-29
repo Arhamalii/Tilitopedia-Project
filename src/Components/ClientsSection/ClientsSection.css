@@ -1,0 +1,11 @@
+.clients_section {
+  margin-top: 40px;
+}
+
+.clients_logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+  margin-top: 65px;
+}

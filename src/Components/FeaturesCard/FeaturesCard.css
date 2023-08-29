@@ -1,0 +1,36 @@
+.card_image {
+  width: 12%;
+  flex-shrink: 0;
+  color: #fafbfc;
+  border: 1px solid #fafbfc;
+  border-radius: 50%;
+  margin-top: 40px;
+  padding: 10px;
+  background: #fafbfc;
+}
+
+.fetaure_heading {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-top: 24px;
+}
+
+.fetaure_detail {
+  width: 341px;
+  color: #ffffff99;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 24px;
+}
+
+.card_image,
+.fetaure_heading,
+.fetaure_detail {
+  margin-left: 24px;
+}

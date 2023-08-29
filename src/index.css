@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --primary-color: #212725;
+  --secondary-color: #002570;
+  --light-text: #4c4b4b;
+}
+.d_flex {
+  display: flex;
+}
+.j-center {
+  justify-content: center;
+}
+.a-center {
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}

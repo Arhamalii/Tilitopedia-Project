@@ -18,6 +18,10 @@ nav .nav-links a {
   margin-right: 1.6rem;
   font-weight: 500;
   color: var(--primar-color);
+  transition: 0.4s ease-in-out all;
+}
+nav .nav-links a:hover {
+  color: var(--secondary-color);
 }
 nav .nav-links a:last-child {
   margin-right: 0;
@@ -33,6 +37,12 @@ nav .seperator {
   border: 2px solid var(--secondary-color);
   color: var(--secondary-color);
   font-weight: 500;
+  transition: 0.5s ease-in-out all;
+}
+.nav-btn .login-btn:hover {
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  color: #fff;
 }
 
 .nav-btn {
@@ -43,6 +53,10 @@ nav .seperator {
 }
 .nav-btn .linkedin-btn {
   margin-left: 2rem;
+  transition: 0.5s ease all;
+}
+.nav-btn .linkedin-btn:hover {
+  transform: scale(1.05);
 }
 
 .nav-btn .linkedin-btn img {

@@ -6,14 +6,24 @@
   gap: 40px;
   margin-top: 40px;
   background: #fff;
+  overflow-x: hidden;
 }
 
-.cards {
+.cards,
+.mySwiper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.mySwiper {
+  max-width: 1240px;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: var(--secondary-color) !important;
 }
 
 .explore_btn {
@@ -31,5 +41,9 @@
   text-align: center;
   border: none;
   font-size: 0.98rem;
-  margin-top: 2rem;
+  margin-top: 1.6rem;
+}
+.swiper_card {
+  max-width: 400px;
+  height: 300px;
 }

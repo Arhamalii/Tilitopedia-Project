@@ -6,7 +6,8 @@ import FeaturesSection from "../../Components/FeaturesSection/FeaturesSection";
 import JobSection from "../../Components/JobsSection/JobSection";
 import Navbar from "../../Components/Navbar/Navbar";
 import ServicesSection from "../../Components/ServicesSection/ServicesSection";
-import Hero from "../../Components/hero";
+import Footer from "../../Components/footer/footer";
+import Hero from "../../Components/hero/index";
 
 const LandingPage = () => {
   return (
@@ -19,6 +20,7 @@ const LandingPage = () => {
       <JobSection />
       <ClientsSection />
       <BlogSection />
+      <Footer />
     </>
   );
 };

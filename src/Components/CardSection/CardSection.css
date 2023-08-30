@@ -1,12 +1,13 @@
 .card_section {
   display: flex;
-  padding: 40px 130px 40px 129px;
+  padding: 40px 129px 40px 129px;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   background: #fff;
   gap: 40px;
   margin: 4.4rem auto;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {

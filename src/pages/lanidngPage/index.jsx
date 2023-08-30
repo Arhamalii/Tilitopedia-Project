@@ -1,12 +1,11 @@
 import React from "react";
-import BlogSection from "../../Components/BlogSection/blog";
-import CardSection from "../../Components/CardSection/CardSection";
-import ClientsSection from "../../Components/ClientsSection/ClientsSection";
-import FeaturesSection from "../../Components/FeaturesSection/FeaturesSection";
-import JobSection from "../../Components/JobsSection/JobSection";
+// import BlogSection from "../../Components/BlogSection/blog";
+// import CardSection from "../../Components/CardSection/CardSection";
+// import FeaturesSection from "../../Components/FeaturesSection/FeaturesSection";
+// import JobSection from "../../Components/JobsSection/JobSection";
 import Navbar from "../../Components/Navbar/Navbar";
-import ServicesSection from "../../Components/ServicesSection/ServicesSection";
-import Footer from "../../Components/footer/footer";
+// import ServicesSection from "../../Components/ServicesSection/ServicesSection";
+// import Footer from "../../Components/footer/footer";
 import Hero from "../../Components/hero/index";
 
 const LandingPage = () => {
@@ -14,13 +13,13 @@ const LandingPage = () => {
     <>
       <Navbar />
       <Hero />
-      <CardSection />
-      <FeaturesSection />
-      <ServicesSection />
-      <JobSection />
-      <ClientsSection />
-      <BlogSection />
-      <Footer />
+      {/* <CardSection /> */}
+      {/* <FeaturesSection /> */}
+      {/* <ServicesSection /> */}
+      {/* <JobSection /> */}
+      {/* <ClientsSection /> */}
+      {/* <BlogSection /> */}
+      {/* <Footer /> */}
     </>
   );
 };

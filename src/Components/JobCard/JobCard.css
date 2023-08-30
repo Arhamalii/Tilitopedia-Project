@@ -96,3 +96,57 @@
   background: transparent;
   font-weight: 500;
 }
+
+/* =----------responsive */
+@media screen and (max-width: 520px) {
+  .job_card {
+    width: 350px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    border: 1px solid #fafafa;
+    background: #fff;
+    padding: 25px 24px 24px 24px;
+    box-shadow: 0 4px 39px 0 rgba(0, 0, 0, 0.0445);
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .descr {
+    width: 365px;
+    color: #767676;
+    font-size: 14px;
+    padding-right: 3rem;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 0.4rem;
+  }
+
+  .card_inside {
+    display: inline-flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 24px;
+  }
+
+  .inner_div {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .logoIcon {
+    width: 32px;
+    height: 26px;
+    margin-bottom: 13px;
+    margin-right: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .job_card {
+    margin: auto;
+    margin-right: 2.2rem;
+  }
+}

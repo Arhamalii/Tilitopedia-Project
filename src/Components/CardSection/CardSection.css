@@ -9,11 +9,10 @@
   margin: 4.4rem auto;
   flex-wrap: wrap;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 898px) {
   .card_section {
     flex-wrap: wrap;
-    padding: 30px 120px 30px 120px;
+    padding: 30px 20px 30px 20px !important;
   }
 }
 

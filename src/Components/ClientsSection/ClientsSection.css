@@ -8,4 +8,37 @@
   justify-content: center;
   gap: 88px;
   margin-top: 65px;
+  padding: 0 3rem;
+  flex-wrap: wrap;
+}
+
+.clients_logos img {
+  transition: 0.6s ease-in-out all;
+  cursor: pointer;
+}
+.clients_logos img:hover {
+  transform: translateY(-5px);
+}
+
+@media screen and (max-width: 668px) {
+  .clients_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 65px;
+    padding: 0 2.6rem;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 428px) {
+  .clients_logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
 }

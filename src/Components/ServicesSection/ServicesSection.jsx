@@ -43,7 +43,10 @@ const ServicesSection = () => {
         <div className="top">Sectors We Cater</div>
         <img src={line} alt="line" />
       </div>
-      <div className="div2_service">
+      <div
+        className="div2_service
+      "
+      >
         {content.map((card, i) => (
           <div className="services" key={i}>
             <div>

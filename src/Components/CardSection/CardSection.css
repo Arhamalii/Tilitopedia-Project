@@ -8,6 +8,7 @@
   gap: 40px;
   margin: 4.4rem auto;
   flex-wrap: wrap;
+  scroll-behavior: smooth;
 }
 @media (max-width: 898px) {
   .card_section {

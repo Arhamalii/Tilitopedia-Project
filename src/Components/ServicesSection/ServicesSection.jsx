@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import line2 from "../../Assets/Images/Line 3.png";
 import icon7 from "../../Assets/Images/extra_icon.png";
 import icon2 from "../../Assets/Images/gaib.png";
@@ -26,6 +27,7 @@ const ServicesSection = () => {
     {
       title: "Information Technology",
       img: icon3,
+      path: "/service/it",
     },
     {
       title: "Banking & Finance",
@@ -48,12 +50,12 @@ const ServicesSection = () => {
       "
       >
         {content.map((card, i) => (
-          <div className="services" key={i}>
+          <Link className="services" key={i} to={card.path}>
             <div>
               <img className="service_image" src={card.img} alt="icon" />
               <div className="tag">{card.title}</div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

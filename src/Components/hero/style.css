@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  scroll-behavior: smooth;
   background-color: #fff9f6;
 }
 .hero-text {

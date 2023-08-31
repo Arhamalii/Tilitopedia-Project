@@ -18,7 +18,10 @@ const Hero = () => {
         </p>
 
         <Link className="get-btn">Get Started</Link>
-        <Link className="get-btn get2-btn"> Contact Us</Link>
+        <Link className="get-btn get2-btn" to={"/contact"}>
+          {" "}
+          Contact Us
+        </Link>
       </div>
       <div className="hero-img">
         <img src={heroimg} alt="" />

@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   padding-bottom: 80px;
+  scroll-behavior: smooth;
 }
 
 .top_title {

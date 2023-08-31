@@ -8,6 +8,7 @@
   background: #fff;
   margin-top: 40px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .div2_service {

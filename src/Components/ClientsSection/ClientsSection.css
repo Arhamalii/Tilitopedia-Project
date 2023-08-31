@@ -1,5 +1,6 @@
 .clients_section {
   margin-top: 40px;
+  scroll-behavior: smooth;
 }
 
 .clients_logos {

@@ -11,18 +11,21 @@ const content = [
     title: "Recruiters",
     desc: "  Are you an expert in your domain? Get paid to recruit for the most exciting startups on your terms.",
     btnText: "Join Now",
+    path: "/recruiter",
   },
   {
     img: icon2,
     title: "Client",
     desc: " Let us show you how our domain experts offer you the right recruitment solutions.",
     btnText: "Contact Us",
+    path: "/contact",
   },
   {
     img: icon3,
     title: "Candidates",
     desc: "  9 out of 10 resumes never get seen. Give your job search a boost! Distribute your resume.",
     btnText: "Share Resume",
+    path: "/upload-resume",
   },
 ];
 const CardSection = () => {
@@ -30,6 +33,7 @@ const CardSection = () => {
     <section className="card_section">
       {content.map((card, i) => (
         <Card
+          path={card.path}
           key={i}
           image={card.img}
           desc={card.desc}

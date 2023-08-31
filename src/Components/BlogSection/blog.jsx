@@ -41,7 +41,10 @@ const BlogSection = () => {
         <div className="top">Blogs</div>
         <img src={line} alt="line" />
       </div>
-      <section className="blogSection">
+      <section
+        className="blogSection"
+        sx={{ display: { xs: "none", sm: "none", md: "none", lg: "none" } }}
+      >
         {content.map((card, i) => (
           <BlogCards
             blogTitle={card.blogTitle}

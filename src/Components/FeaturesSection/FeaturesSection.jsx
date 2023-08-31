@@ -1,12 +1,12 @@
 import React from "react";
 import line2 from "../../Assets/Images/Line 2.png";
 import line4 from "../../Assets/Images/Line 4.png";
-import icon6 from "../../Assets/Images/add_user.png";
-import icon3 from "../../Assets/Images/developer 1.png";
-import icon5 from "../../Assets/Images/e2e-management 1.png";
-import icon4 from "../../Assets/Images/enable 1.png";
-import icon1 from "../../Assets/Images/evaluate 1.png";
-import icon2 from "../../Assets/Images/users.png";
+import icon1 from "../../Assets/Images/fcon1.png";
+import icon2 from "../../Assets/Images/fcon2.png";
+import icon3 from "../../Assets/Images/fcon3.png";
+import icon4 from "../../Assets/Images/fcon4.png";
+import icon5 from "../../Assets/Images/fcon5.png";
+import icon6 from "../../Assets/Images/fcon6.png";
 import FeaturesCard from "../FeaturesCard/FeaturesCard";
 import "./FeaturesSection.css";
 
@@ -19,14 +19,9 @@ const FeaturesSection = () => {
     },
 
     {
-      image: icon2,
-      title: "Hire The Best",
-      desc: "Our network of industrial domain experts screens, ranks, and delivers detailed candidate analytics reports. As a result, our clients are three times more likely to make better hiring decisions.",
-    },
-    {
       image: icon3,
       title: "Accelerate Hiring",
-      desc: "No more time wasted on screening and pre-qualifying interviews. Our domain experts quickly source and screen candidates to cut the time to hire by 50%.",
+      desc: "No more time wasted on screening and pre-qualifying interviews. Our domain  quickly source and screen candidates to cut the time to hire by 50%.",
     },
     {
       image: icon4,
@@ -36,12 +31,17 @@ const FeaturesSection = () => {
     {
       image: icon5,
       title: "Role & Cultural Match",
-      desc: "To land and keep top performers, a good cultural fit is required. We ensure a strong culture match with detailed profile analytics and culture fit scoring to reduce turnover by 50%.",
+      desc: "To land and keep top performers, a good cultural fit is required. We ensure a strong culture match  detailed profile analytics and culture  scoring to reduce turnover by 50%.",
     },
     {
       image: icon6,
       title: "Streamlines the process",
       desc: "Our team handles the entire hiring process through our powerful digital platform, which streamlines the process and gives our clients a better experience.",
+    },
+    {
+      image: icon2,
+      title: "Hire The Best",
+      desc: "Our network of industrial domain experts screens, ranks, and delivers detailed candidate analytics reports. As a result, our clients are three times more likely to make  hiring decisions.",
     },
   ];
   return (

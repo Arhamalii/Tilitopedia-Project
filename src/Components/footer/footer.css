@@ -6,7 +6,7 @@ footer {
   max-width: 100vw;
   font-family: "Poppins", sans-serif;
   height: auto;
-  margin-top: 3.6rem;
+  /* margin-top: 3.6rem; */
 }
 .footer_row {
   padding: 2rem 0.76rem;
@@ -83,4 +83,120 @@ footer {
   font-size: 0.9rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 1420px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
+  footer {
+    padding: 3rem 4rem;
+    background-color: #fff9f6;
+    max-width: 100vw;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    margin-top: 3.6rem;
+  }
+  .footer_row {
+    padding: 2rem 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .footer_row .col-4 {
+    flex-basis: 13%;
+    min-width: 160px;
+  }
+  .footer_row .col-4:first-child {
+    min-width: 280px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  footer {
+    padding: 3rem 3rem;
+    background-color: #fff9f6;
+    max-width: 100vw;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    margin-top: 3.6rem;
+  }
+  .footer_row {
+    padding: 2rem 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .footer_row .col-4 {
+    flex-basis: 13%;
+    min-width: 140px;
+  }
+  .footer_row .col-4:first-child {
+    min-width: 280px;
+  }
+}
+@media screen and (max-width: 1082px) {
+  footer {
+    padding: 3rem 1.4rem;
+    background-color: #fff9f6;
+    max-width: 100vw;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    margin-top: 3.6rem;
+  }
+  .footer_row {
+    padding: 2rem 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    row-gap: 5rem;
+  }
+  .footer_row .col-4 {
+    flex-basis: 13%;
+    min-width: 107px;
+  }
+  .footer_row .col-4:first-child {
+    min-width: 280px;
+  }
+}
+@media screen and (max-width: 940px) {
+  footer {
+    padding: 3rem 1.4rem;
+    background-color: #fff9f6;
+    max-width: 100vw;
+    font-family: "Poppins", sans-serif;
+    height: auto;
+    margin-top: 3.6rem;
+  }
+  .footer_row {
+    padding: 2rem 0.56rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2.2rem;
+    row-gap: 5rem;
+  }
+  .footer_row .col-4 {
+    flex-basis: 20%;
+    min-width: 107px;
+  }
+  .footer_row .col-4:first-child {
+    min-width: 280px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .footer_row .col-4:first-child {
+    text-align: center;
+  }
+  .footer_row .col-4:first-child img {
+    text-align: center;
+    margin-right: 2.2rem;
+  }
 }

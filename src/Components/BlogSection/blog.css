@@ -6,5 +6,11 @@
   align-items: center;
   gap: 2.8rem;
   flex-wrap: wrap;
-  padding: 2rem 2rem;
+  padding: 2rem 3rem;
+  margin: auto;
+}
+@media screen and (max-width: 1431px) {
+  .blogSection {
+    gap: 5rem;
+  }
 }

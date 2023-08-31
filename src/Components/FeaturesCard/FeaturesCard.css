@@ -1,5 +1,6 @@
 .card_image {
-  width: 12%;
+  width: 80px;
+  height: 80px;
   flex-shrink: 0;
   color: #fafbfc;
   border: 1px solid #fafbfc;
@@ -7,6 +8,15 @@
   margin-top: 40px;
   padding: 10px;
   background: #fafbfc;
+}
+.features_card {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex: wrap;
+  min-width: 365px;
+  max-width: 365px;
+  height: 328px;
 }
 
 .fetaure_heading {
@@ -18,6 +28,11 @@
   margin-top: 24px;
 }
 
+.card_image,
+.fetaure_heading,
+.fetaure_detail {
+  margin-left: 24px;
+}
 .fetaure_detail {
   width: 341px;
   color: #ffffff99;
@@ -29,8 +44,220 @@
   margin-top: 24px;
 }
 
-.card_image,
-.fetaure_heading,
-.fetaure_detail {
-  margin-left: 24px;
+.feature_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1457px;
+  gap: 3rem;
+  row-gap: 4rem;
+}
+
+@media screen and (max-width: 1352px) {
+  .card_image {
+    width: 74px;
+    height: 74px;
+  }
+  .features_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: wrap;
+    min-width: 305px;
+    max-width: 305px;
+    height: 300px;
+  }
+  .feature_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1457px;
+    gap: 4rem;
+    row-gap: 7rem;
+  }
+
+  .fetaure_heading {
+    color: #fff;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 24px;
+  }
+  .fetaure_detail {
+    font-size: 17px;
+    margin-top: 22px;
+  }
+}
+/* 
+@media screen and (max-width: 1200px) {
+  .feature_section {
+    padding: 50px 80px;
+  }
+
+  .fetaure_detail {
+    font-size: 16px;
+    margin-top: 22px;
+    max-width: 100%;
+  }
+} */
+@media screen and (max-width: 898px) {
+  .features_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: wrap;
+    min-width: 280px;
+    max-width: 280px;
+    height: 290px;
+  }
+  .feature_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 1457px;
+    gap: 5rem;
+    row-gap: 9rem;
+  }
+  .fetaure_detail {
+    width: 270px;
+    color: #ffffff99;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+  }
+  .fetaure_heading {
+    color: #fff;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .features_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: wrap;
+    min-width: 250px;
+    max-width: 250px;
+    height: 290px;
+  }
+  .feature_section {
+    padding: 50px 0px;
+  }
+
+  .feature_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 1457px;
+    gap: 5rem;
+    row-gap: 9rem;
+  }
+  .fetaure_detail {
+    width: 220px;
+    color: #ffffff99;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .fetaure_heading {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .features_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: wrap;
+    min-width: 230px;
+    max-width: 230px;
+    height: 290px;
+  }
+  .feature_section {
+    padding: 50px 0px;
+  }
+
+  .feature_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    max-width: 1457px;
+    gap: 5rem;
+    row-gap: 6rem;
+  }
+  .fetaure_detail {
+    width: 214px;
+    color: #ffffff99;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .fetaure_heading {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card_image {
+    width: 74px;
+    height: 74px;
+    margin: auto;
+  }
+  .features_card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    flex: wrap;
+    min-width: 340px;
+    max-width: 340px;
+    height: 300px;
+  }
+  .feature_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1457px;
+    gap: 4rem;
+    row-gap: 7rem;
+  }
+
+  .fetaure_heading {
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 24px;
+    margin-left: 0;
+  }
+  .fetaure_detail {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 22px;
+    line-height: 1.7;
+    width: 340px;
+    margin-left: 0;
+  }
 }

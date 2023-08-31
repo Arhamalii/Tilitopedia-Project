@@ -1,0 +1,348 @@
+.contact_parent {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  gap: 3rem;
+  padding: 2rem 5%;
+  justify-content: center;
+  align-items: center;
+  background: #fff9f6;
+  margin: 0 auto;
+}
+.contact_parent .contact_content h1 {
+  font-family: Inter;
+  position: relative;
+  font-size: 2.41vw;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212725;
+  margin-bottom: 2rem;
+}
+.vector_image {
+  top: 6.8rem;
+  left: 2.5rem;
+  position: absolute;
+}
+
+.contact_parent .contact_content img:last-child {
+  max-width: 100%;
+}
+
+.contact_parent .contact_form {
+  background: #ffffff;
+  border: 1px solid #ffffffd8;
+  height: 38.3rem;
+  border-radius: 0.6rem;
+}
+.contact_parent .contact_form h1 {
+  margin-top: 2.2rem;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+
+.contact_parent .contact_form .global_btn {
+  border: none;
+  margin-top: 1.4rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 170px;
+  font-weight: 500;
+  margin: 0 9.7%;
+  font-size: 16px;
+  height: 52px;
+}
+
+.contact_form .form_row {
+  display: flex;
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  padding: 0rem 2%;
+}
+
+.single_input {
+  width: 40%;
+  height: 54px;
+  gap: 2rem;
+}
+.double_input {
+  width: 84%;
+}
+.double_input input {
+  height: 116px;
+}
+
+/* ----------responsivenes */
+@media screen and (max-width: 1230px) {
+  .contact_parent {
+    gap: 2rem;
+    padding: 2rem 5%;
+  }
+  .contact_parent .contact_content h1 {
+    font-size: 2.547vw;
+    line-height: 45px;
+    margin-bottom: 2rem;
+  }
+  .vector_image {
+    top: 12.6vw;
+    left: 2.3vw;
+    position: absolute;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1109px) {
+  .contact_parent {
+    gap: 2.3rem;
+    padding: 2rem 3%;
+  }
+  .contact_parent .contact_content h1 {
+    font-size: 2.647vw;
+    line-height: 42px;
+    margin-bottom: 2rem;
+  }
+  .vector_image {
+    top: 15.6vw;
+    left: 0.1vw;
+    position: absolute;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact_parent {
+    display: grid;
+    grid-template-columns: 90%;
+    gap: 3rem;
+    padding: 5.6rem 5%;
+    justify-content: center;
+    align-items: center;
+    background: #fff9f6;
+    margin: 0 auto;
+  }
+
+  .contact_parent .contact_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_parent .contact_content h1 {
+    line-height: 60px;
+    font-size: 4.5vw;
+    margin-right: 8rem;
+    margin-bottom: 3rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 738px) {
+  .contact_parent {
+    display: grid;
+    grid-template-columns: 90%;
+    gap: 3rem;
+    padding: 5.6rem 5%;
+    justify-content: center;
+    align-items: center;
+    background: #fff9f6;
+    margin: 0 auto;
+  }
+
+  .contact_parent .contact_content h1 {
+    line-height: 46px;
+    font-size: 4.36vw;
+    margin-right: 7rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .contact_parent {
+    gap: 3rem;
+    padding: 5.6rem 4%;
+    justify-content: center;
+    align-items: center;
+    background: #fff9f6;
+    margin: 0 auto;
+  }
+
+  .contact_parent .contact_content h1 {
+    line-height: 40px;
+    font-size: 4.3vw;
+    margin-right: 7rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 65%;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .contact_parent .contact_content h1 {
+    line-height: 32px;
+    font-size: 4.3vw;
+    margin-right: 6rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 65%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact_parent .contact_content h1 {
+    line-height: 29px;
+    font-size: 4.1vw;
+    margin-right: 5.9rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 65%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .contact_parent .contact_content h1 {
+    line-height: 22px;
+    font-size: 4vw;
+    margin-right: 5.9rem;
+    margin-bottom: 2.2rem;
+  }
+
+  .contact_parent .contact_content img:last-child {
+    max-width: 62%;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .contact_form .form_row {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 3.8rem;
+    justify-content: center;
+    padding: 0rem 1.4%;
+  }
+
+  .single_input {
+    width: 43%;
+    height: 20px;
+    gap: 2rem;
+  }
+  .double_input {
+    width: 90%;
+  }
+  .double_input input {
+    height: 100px;
+  }
+  .contact_parent .contact_form .global_btn {
+    margin-top: 0rem;
+    border-radius: 10px;
+    width: 140px;
+    font-size: 16px;
+    height: 45px;
+    margin: 0 6%;
+  }
+}
+
+/* --------------------------- brakpoints for vector  */
+@media screen and (max-width: 1422px) {
+  .vector_image {
+    top: 7.6rem;
+    left: 1.8rem;
+    width: 4%;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  .vector_image {
+    top: 8.1rem;
+    left: 2rem;
+    width: 4%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1283px) {
+  .vector_image {
+    top: 9rem;
+    left: 1.8rem;
+    width: 4%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1224px) {
+  .vector_image {
+    top: 10.2rem;
+    left: 1.7rem;
+    width: 4%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 1108px) {
+  .vector_image {
+    top: 11.3rem;
+    left: 0.2rem;
+    width: 4%;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .vector_image {
+    top: 9.2rem;
+    left: 2rem;
+    width: 8%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 727px) {
+  .vector_image {
+    top: 9.6rem;
+    left: 1.8rem;
+    width: 7%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 669px) {
+  .vector_image {
+    top: 9.4rem;
+    left: 1.3rem;
+    width: 7%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 538px) {
+  .vector_image {
+    top: 10rem;
+    left: 1rem;
+    width: 7%;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 427px) {
+  .vector_image {
+    top: 10rem;
+    left: 0.8rem;
+    width: 7%;
+    position: absolute;
+  }
+}

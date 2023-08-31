@@ -1,5 +1,6 @@
 .blog_cards {
-  width: 413px;
+  min-width: 413px;
+  max-width: 413px;
   height: 470px;
 }
 .blog_cards img {
@@ -36,13 +37,17 @@
   font-weight: 700;
 }
 
-@media screen and (max-width: 1394) {
+@media screen and (max-width: 655px) {
   .blog_cards {
-    width: 413px;
-    height: 470px;
+    min-width: 350px;
+    height: 465px;
+    max-width: 350px;
   }
   .blog_cards img {
+    min-width: 350px;
     border-radius: 20px;
+
+    max-width: 350px;
   }
   .blog_cards h4 {
     font-size: 22px;

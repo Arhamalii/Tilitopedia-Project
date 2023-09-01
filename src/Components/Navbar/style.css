@@ -115,6 +115,7 @@ nav .seperator {
     justify-content: center;
     background: rgb(255, 243, 236);
     transition: 0.4s ease-in-out all;
+    z-index: 1001;
   }
   #active-menu {
     top: 5rem;

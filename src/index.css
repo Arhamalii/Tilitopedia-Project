@@ -21,3 +21,48 @@
 a {
   text-decoration: none;
 }
+
+.top {
+  position: relative;
+}
+
+.top::after {
+  content: "";
+  background: var(--secondary-color);
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top_heading {
+  position: relative;
+}
+.top_heading::after {
+  content: "";
+  background: #fff;
+  width: 430px;
+  height: 2px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mod_top {
+  position: relative;
+}
+.mod_top::after {
+  content: "";
+  background: var(--secondary-color);
+  width: 40px !important;
+  height: 4px !important;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

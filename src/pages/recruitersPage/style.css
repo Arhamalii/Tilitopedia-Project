@@ -82,17 +82,17 @@
 }
 .inner_point span {
   background: var(--secondary-color);
-  padding: 0.037rem 0.23rem;
+  padding: 0.02rem 0.22rem;
   border-radius: 0.2rem;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 .inner_point p {
   display: inline;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0em;

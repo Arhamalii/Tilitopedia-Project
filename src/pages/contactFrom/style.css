@@ -34,6 +34,7 @@
   border: 1px solid #ffffffd8;
   height: 38.3rem;
   border-radius: 0.6rem;
+  box-shadow: 0px 1px 6px 1px rgba(153, 153, 193, 0.4);
 }
 .contact_parent .contact_form h1 {
   margin-top: 2.2rem;

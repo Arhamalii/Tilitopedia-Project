@@ -34,8 +34,11 @@ const BlogSection = () => {
   ];
   return (
     <>
-      <div className="top_title" style={{ marginTop: "6.8rem" }}>
-        <div className="top">Blogs</div>
+      <div
+        className="top_title "
+        style={{ marginTop: "5.2rem", marginBottom: "2.4rem" }}
+      >
+        <div className="top mod_top">Blogs</div>
       </div>
       <section
         className="blogSection"

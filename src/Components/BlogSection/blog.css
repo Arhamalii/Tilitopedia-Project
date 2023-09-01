@@ -9,6 +9,7 @@
   padding: 2rem 3rem;
   margin: auto;
   scroll-behavior: smooth;
+  margin-bottom: 6rem;
 }
 @media screen and (max-width: 1431px) {
   .blogSection {

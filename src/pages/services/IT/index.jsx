@@ -39,6 +39,11 @@ const InformationT = () => {
     <Layout title={"Services - IT"}>
       <div className="service_parent">
         <div className="service_content">
+          <div className="mytextdiv">
+            <div className="divider"></div>
+            <div className="mytexttitle">Our Services</div>
+          </div>
+
           <h1>Information Technology Recruitment & Workforce Solutions </h1>
           <p className="desc" style={{ color: "#000" }}>
             Our headhunters take a consultative approach and work from a deeper
@@ -63,11 +68,7 @@ const InformationT = () => {
               </React.Fragment>
             ))}
           </div>
-          <Link to={"/contact"}>
-            <button type="button" className="service_btn">
-              Contact Us
-            </button>
-          </Link>
+          <Link to={"/contact"}></Link>
         </div>
         <div className="services_image">
           <img src={s1} alt="it" />

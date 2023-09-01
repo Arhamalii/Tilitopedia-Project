@@ -71,8 +71,8 @@
   }
 
   .hero-text h1 {
-    font-size: 3.4rem;
-    padding-right: 2rem;
+    font-size: 3.6rem;
+    padding-right: 4rem;
     line-height: 1.24;
     color: var(--primary-color);
     font-weight: 700;
@@ -178,7 +178,11 @@
     width: 40rem;
     margin-bottom: -6rem;
   }
-
+  .hero-vector {
+    position: absolute;
+    top: 12.6rem;
+    left: 1vw;
+  }
   .hero-text h1 {
     font-size: 4.19vw;
   }
@@ -242,6 +246,11 @@
   .hero-text h1 {
     font-size: 3.5vw;
   }
+  .hero-vector {
+    position: absolute;
+    top: 12.4rem;
+    left: 0vw;
+  }
   .hero-text {
     padding-top: 8.8rem;
     padding-left: 9.45%;
@@ -267,6 +276,11 @@
     grid-template-columns: 1fr;
     justify-content: center;
     background-color: #fff9f6;
+  }
+  .hero-vector {
+    position: absolute;
+    top: 10.6rem;
+    left: 6vw;
   }
   .hero-sec {
     gap: 0rem;
@@ -334,8 +348,8 @@
 
   .hero-vector {
     position: absolute;
-    top: 11rem;
-    left: 3.2vw;
+    top: 10rem;
+    left: 3.5vw;
   }
   .get-btn {
     padding: 0.96rem 2rem;
@@ -378,8 +392,11 @@
 
   .hero-vector {
     position: absolute;
-    top: 10.7rem;
-    left: 2.2vw;
+    top: 11rem;
+    left: 5vw;
+  }
+  .hero-vector img {
+    width: 60%;
   }
   .hero-text p {
     margin: 1.7rem 0;

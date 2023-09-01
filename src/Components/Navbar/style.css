@@ -2,20 +2,20 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5%;
+  padding: 1rem 2%;
   background-color: #fff9f6;
 }
 
 nav .nav-logo img {
-  max-width: 80%;
+  max-width: 88%;
 }
 nav .nav-links {
-  margin-right: 10vw;
+  margin-right: 3.6vw;
 }
 
 nav .nav-links a {
   text-decoration: none;
-  margin-right: 1.6rem;
+  margin-right: 2rem;
   font-weight: 500;
   color: var(--primar-color);
   transition: 0.4s ease-in-out all;
@@ -31,7 +31,7 @@ nav .seperator {
   align-items: center;
 }
 .nav-btn .login-btn {
-  padding: 0.8rem 1.8rem;
+  padding: 0.65rem 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--secondary-color);
@@ -60,7 +60,7 @@ nav .seperator {
 }
 
 .nav-btn .linkedin-btn img {
-  width: 3rem;
+  width: 2.6rem;
   align-self: center;
 }
 

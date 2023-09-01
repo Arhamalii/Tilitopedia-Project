@@ -91,18 +91,7 @@
     margin-top: 22px;
   }
 }
-/* 
-@media screen and (max-width: 1200px) {
-  .feature_section {
-    padding: 50px 80px;
-  }
 
-  .fetaure_detail {
-    font-size: 16px;
-    margin-top: 22px;
-    max-width: 100%;
-  }
-} */
 @media screen and (max-width: 898px) {
   .features_card {
     display: flex;
@@ -230,6 +219,8 @@
     flex: wrap;
     min-width: 340px;
     max-width: 340px;
+    border: 2px solid #fff;
+    border-radius: 0.76rem;
     height: 300px;
   }
   .feature_cards {

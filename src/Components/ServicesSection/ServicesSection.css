@@ -31,13 +31,13 @@
   border-radius: 28px;
   border: 1px solid #f2f2f2;
   background: #fff;
-  box-shadow: 0px 4px 39px 0px #0000000d;
+  box-shadow: 0px 4px 19px 0px #3030303d;
   transition: 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) all;
   cursor: pointer;
 }
 
 .services:hover {
-  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.164);
+  box-shadow: 0px 4px 19px 0px #3030308a;
 }
 
 .services > div {

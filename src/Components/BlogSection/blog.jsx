@@ -1,6 +1,4 @@
 import React from "react";
-import line3 from "../../Assets/Images/Line 3.png";
-import line from "../../Assets/Images/line.png";
 import pic1 from "../../Assets/Images/pic1.png";
 import pic2 from "../../Assets/Images/pic2.png";
 import pic3 from "../../Assets/Images/pic3.png";
@@ -37,9 +35,7 @@ const BlogSection = () => {
   return (
     <>
       <div className="top_title" style={{ marginTop: "6.8rem" }}>
-        <img src={line3} alt="line" />
         <div className="top">Blogs</div>
-        <img src={line} alt="line" />
       </div>
       <section
         className="blogSection"

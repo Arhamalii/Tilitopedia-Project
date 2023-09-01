@@ -1,6 +1,4 @@
 import React from "react";
-import line3 from "../../Assets/Images/Line 3.png";
-import line from "../../Assets/Images/line.png";
 import JobCard from "../JobCard/JobCard";
 import "./JobSection.css";
 // ------------ Importing Swiperjs--------
@@ -52,10 +50,11 @@ const JobSection = () => {
   ];
   return (
     <section className="job_section">
-      <div className="top_title" style={{ marginTop: "2rem" }}>
-        <img src={line3} alt="line" />
+      <div
+        className="top_title"
+        style={{ marginTop: "2rem", marginBottom: "2rem" }}
+      >
         <div className="top">Latest Job Opportunities</div>
-        <img src={line} alt="line" />
       </div>
       <div className="cards">
         <Swiper

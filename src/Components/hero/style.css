@@ -44,6 +44,9 @@
   padding-right: 1.4rem;
   color: var(--light-text);
 }
+.hero-text p span {
+  font-weight: 700;
+}
 .get-btn {
   padding: 1rem 2.2rem;
   background: var(--secondary-color);
@@ -59,6 +62,51 @@
   margin-left: 2rem;
 }
 
+@media screen and (min-width: 1401px) {
+  .hero-text {
+    height: 600px;
+    min-width: 300px;
+    padding-left: 10.45%;
+    padding-top: 8rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3.4rem;
+    padding-right: 2rem;
+    line-height: 1.24;
+    color: var(--primary-color);
+    font-weight: 700;
+    position: relative;
+  }
+  .hero-vector {
+    position: absolute;
+    top: 11.2rem;
+    left: 35px;
+    left: 2vw;
+  }
+
+  .hero-text p {
+    margin: 1.9rem 0;
+    margin-bottom: 3.2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--light-text);
+  }
+  .get-btn {
+    padding: 1rem 2.2rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 0.4rem;
+    font-weight: 500;
+  }
+  .get2-btn {
+    padding: 0.94rem 2.2rem;
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    margin-left: 2rem;
+  }
+}
 @media screen and (max-width: 1400px) {
   .hero-img img {
     width: 45rem;

@@ -13,8 +13,9 @@ const Hero = () => {
         </span>
         <h1>Helping Business Create Value Through Talent Acquisition</h1>
         <p>
-          Our excellence is in providing quality staffing solutions through our
-          network of domain experts to maximize client business potential.
+          Our excellence is in providing{" "}
+          <span>quality staffing solutions </span>through our network of{" "}
+          <span>domain experts </span>to maximize client business potential.
         </p>
 
         <Link className="get-btn">Get Started</Link>

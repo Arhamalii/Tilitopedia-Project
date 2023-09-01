@@ -1,6 +1,4 @@
 import React from "react";
-import line2 from "../../Assets/Images/Line 2.png";
-import line4 from "../../Assets/Images/Line 4.png";
 import icon1 from "../../Assets/Images/fcon1.png";
 import icon2 from "../../Assets/Images/fcon2.png";
 import icon3 from "../../Assets/Images/fcon3.png";
@@ -47,9 +45,7 @@ const FeaturesSection = () => {
   return (
     <section className="feature_section" id="navigate">
       <div className="top_title">
-        <img src={line4} alt="line" />
         <div className="top_heading">What Makes Tillitopedia Different ?</div>
-        <img src={line2} alt="line" />
       </div>
       <div className="feature_cards">
         {content.map((card, i) => (

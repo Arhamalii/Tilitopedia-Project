@@ -5,6 +5,7 @@ import LandingPage from "./pages/lanidngPage/index";
 import RecruiterForm from "./pages/recruitersPage";
 import ResumeUpload from "./pages/resumeUpload";
 import InformationT from "./pages/services/IT/";
+import OilAndGas from "./pages/services/Oil&gas";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<ContactFrom />} />
         <Route path="/recruiter" element={<RecruiterForm />} />
         <Route path="/service/it" element={<InformationT />} />
+        <Route path="/service/oil" element={<OilAndGas />} />
       </Routes>
     </>
   );

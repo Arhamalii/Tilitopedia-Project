@@ -13,14 +13,17 @@ const ServicesSection = () => {
     {
       title: "Oil & Gas",
       img: icon6,
+      path: "/service/oil",
     },
     {
       title: "Renewable Energy",
       img: icon5,
+      path: "/service/energy",
     },
     {
       title: "Manufacturing",
       img: icon4,
+      path: "/service/manufacture",
     },
     {
       title: "Information Technology",
@@ -30,14 +33,16 @@ const ServicesSection = () => {
     {
       title: "Banking & Finance",
       img: icon2,
+      path: "/service/banking",
     },
     {
       title: "FMCG",
       img: icon7,
+      path: "/service/fmcg",
     },
   ];
   return (
-    <section className="services_section">
+    <section className="services_section" id="sector">
       <div className="top_title" style={{ marginBottom: "2rem" }}>
         <div className="top">Sectors We Cater</div>
       </div>

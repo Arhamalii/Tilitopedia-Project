@@ -1,3 +1,6 @@
+* {
+  scroll-behavior: smooth !important;
+}
 nav {
   display: flex;
   justify-content: space-between;

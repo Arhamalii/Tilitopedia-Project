@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Layout from "../../Layout";
-import "../IT/style.css";
+import "./style.css";
 const ServiceSkelton = ({
   serviceImaage,
   headerTitle,
   description,
   points,
+  title,
 }) => {
   return (
-    <Layout title={"Services - IT"}>
+    <Layout title={`Services - ${title}`}>
       <div className="service_parent">
         <div className="service_content">
           <div className="mytextdiv">

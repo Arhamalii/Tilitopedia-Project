@@ -43,7 +43,7 @@ const FeaturesSection = () => {
     },
   ];
   return (
-    <section className="feature_section" id="navigate">
+    <section className="feature_section" id="why">
       <div className="top_title">
         <div className="top_heading">What Makes Tillitopedia Different ?</div>
       </div>

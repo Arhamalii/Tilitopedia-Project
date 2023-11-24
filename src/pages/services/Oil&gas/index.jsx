@@ -1,6 +1,6 @@
 import React from "react";
 import image from "../../../Assets/Images/oliandgas.png";
-import ServiceSkelton from "./skeltoin";
+import ServiceSkelton from "../serviceSkelton/skeltoin";
 const OilAndGas = () => {
   const points = [
     {
@@ -34,17 +34,19 @@ const OilAndGas = () => {
     },
   ];
   const content = {
-    title: "Oil & Gas Recruitment & Workforce Solutions",
+    headerTitle: "Oil & Gas Recruitment & Workforce Solutions",
     desc: "We recruit for onshore, offshore, natural gas, upstream, midstream and downstream clients in the energy sector, providing engineering and technical personnel for some of the most important energy projects.",
     image: image,
+    title: "Oil & Gas",
   };
 
   return (
     <ServiceSkelton
       points={points}
-      headerTitle={content.title}
+      headerTitle={content.headerTitle}
       description={content.desc}
       serviceImaage={content.image}
+      title={content.title}
     />
   );
 };

@@ -49,7 +49,7 @@ const JobSection = () => {
     },
   ];
   return (
-    <section className="job_section">
+    <section className="job_section" id="job-board">
       <div
         className="top_title"
         style={{ marginTop: "2rem", marginBottom: "2rem" }}

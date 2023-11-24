@@ -30,9 +30,10 @@ const Navbar = () => {
       />
       <div className="seperator" id={active ? "active-menu" : ""}>
         <div className="nav-links">
-          <Link>Why us</Link>
-          <Link>Sector</Link>
-          <Link>Job Board</Link>
+          {/* <Link to={"/#why"}>Why us</Link> */}
+          <a href="#why">Why us</a>
+          <a href="#sector">Sector</a>
+          <a href="#job-board">Job Board</a>
           {location.pathname !== "/" ? (
             <Link to={"/contact"}>Contact Us</Link>
           ) : (
@@ -41,7 +42,7 @@ const Navbar = () => {
         </div>
         <div className="nav-btn">
           <Link className="login-btn">Login</Link>
-          <Link to={"google.com"} className="linkedin-btn">
+          <Link className="linkedin-btn">
             <img src={linkedin} alt="linkedin" />
           </Link>
         </div>

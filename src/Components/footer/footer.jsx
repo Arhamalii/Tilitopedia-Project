@@ -14,8 +14,8 @@ const Footer = () => {
         <div className="col-4">
           <img src={logo} alt="logo" />
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Our excellence is to provide quality staffing solutions through our
+            network of domain experts.
           </p>
 
           <div className="icons">
